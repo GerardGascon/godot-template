@@ -1,4 +1,4 @@
-﻿image: barichello/godot-ci:4.5
+image: barichello/godot-ci:4.5
 
 cache:
   key: import-assets
