@@ -6,6 +6,9 @@ on:
 env:
   GODOT_VERSION: 4.5
   GODOT_STATUS: stable
+  EXPORT_NAME: project
+  PROJECT_PATH: project
+
 jobs:
   import-assets:
     runs-on: ubuntu-latest
