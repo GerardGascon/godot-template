@@ -50,7 +50,7 @@ html5:
     - mkdir -v -p build/html5
     - EXPORT_DIR="$(readlink -f build)"
     - cd $PROJECT_PATH
-    - godot --headless --verbose --export-release "HTML5" "$EXPORT_DIR/web/index.html"
+    - godot --headless --verbose --export-release "HTML5" "$EXPORT_DIR/html5/index.html"
   artifacts:
     name: $EXPORT_NAME-$CI_JOB_NAME
     paths:
